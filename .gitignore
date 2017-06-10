@@ -64,3 +64,4 @@ typings/
 !.vscode/launch.json
 
 # custom paths
+dist/

@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "Explorer >=11",
+            "Android >=4.4",
+            "ChromeAndroid >=44",
+            "iOS >=7",
+            "Edge >=12"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "plugins": [
+    [
+      "transform-class-properties"
+    ],
+    [
+      "transform-object-rest-spread"
+    ],
+    [
+      "module-resolver",
+      {
+        "root": [
+          "."
+        ]
+      }
+    ],
+    [
+      "external-helpers"
+    ]
+  ]
+}
