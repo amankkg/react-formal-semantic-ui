@@ -1,0 +1,24 @@
+{
+  "name": "react-formal-semantic-ui",
+  "version": "0.0.1",
+  "description": "semantic-ui-react inputs for react-formal",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code4aman/react-formal-semantic-ui.git"
+  },
+  "keywords": [
+    "react-formal",
+    "semantic-ui-react",
+    "semantic-ui"
+  ],
+  "author": "amankubanychbek@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code4aman/react-formal-semantic-ui/issues"
+  },
+  "homepage": "https://github.com/code4aman/react-formal-semantic-ui#readme"
+}
