@@ -5,7 +5,8 @@
     "babel",
     "jsx-a11y",
     "import",
-    "react"
+    "react",
+    "flowtype"
   ],
   "settings": {
     "import/resolver": {
@@ -15,7 +16,10 @@
   "env": {
     "es6": true
   },
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
   "rules": {
     "linebreak-style": 0,
     "semi": [
